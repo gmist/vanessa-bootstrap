@@ -11,20 +11,20 @@
 
 * прочитайте [Wiki](https://github.com/silverbulleters/vanessa-bootstrap/wiki/%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0%D0%BC-1%D0%A1)
 * склонируйте репозиторий в любое место, чтобы изучить каждый каталог и его предназначение
-* не забудьте что git под Windows нужно устанавливать с git:bash интерпретатором
+* не забудьте, что git под Windows нужно устанавливать с git:bash интерпретатором
 
 #### Порядок работы 1С специалиста
 
 * как настоящий 1С специалист новую конфигурацию подключите к Хранилищу 1С (если вы разрабатываете внешнюю обработку, этот пункт можете пропустить)
 * настройте на своем CI-сервере выгрузку исходников из [Хранилища 1С](http://v8.1c.ru/overview/DeveloperGroupp.htm) в git репозиторий с помощью [Yet Another Unpack](https://github.com/silverbulleters/vanessa-unpack) - выгрузку лучше всего настроить в каталог .\src\cf
 * обратите внимание на проект [по исправлению артефактов 1С при выгрузке в исходники](https://github.com/pumbaEO/undiff1c/blob/master/src/undiff1c/undiff1c.py) - если вы видите странные изменения в xml файлах, значит необходимо описать пример в качестве запроса https://github.com/pumbaEO/undiff1c/issues, чтобы исключить проблемы выгрузки.
-* обратите внимание на наличие у вас интерпретатора python для работы с [precommit1C](https://github.com/pumbaEO/precommit1c) - конечная цель чтобы в каталоге src находились все epf файлы анаходящиеся в репозитории, только в виде исходников.
+* обратите внимание на наличие у вас интерпретатора python для работы с [precommit1C](https://github.com/pumbaEO/precommit1c) - конечная цель, чтобы в каталоге src находились все epf файлы анаходящиеся в репозитории, только в виде исходников.
 * следите за обновлением шаблона
 * подпишитесь на изменения WiKi в виде RSS канала https://github.com/silverbulleters/vanessa-bootstrap/wiki.atom
 
 обратите внимание что:
 
-* существует проект [gitsync](https://github.com/EvilBeaver/oscript-library/tree/develop/src/gitsync) реализованный на [oscript.io](http://oscript.io/)
+* существует проект [gitsync](https://github.com/EvilBeaver/oscript-library/tree/develop/src/gitsync), реализованный на [oscript.io](http://oscript.io/)
 * precommit1C на данный момент имеет версию как для Python, так и для **OScript** [precommit1C](https://github.com/xDrivenDevelopment/precommit1c/)
 
 ### Порядок инсталяции и обновления шаблона
