@@ -19,11 +19,11 @@
 * настройте на своем CI-сервере выгрузку исходников из [Хранилища 1С](http://v8.1c.ru/overview/DeveloperGroupp.htm) в git репозиторий с помощью [Yet Another Unpack](https://github.com/silverbulleters/vanessa-unpack) - выгрузку лучше всего настроить в каталог .\src\cf
 * обратите внимание на проект [по исправлению артефактов 1С при выгрузке в исходники](https://github.com/pumbaEO/undiff1c/blob/master/src/undiff1c/undiff1c.py) - если вы видите странные изменения в xml файлах, значит необходимо описать пример в качестве запроса https://github.com/pumbaEO/undiff1c/issues, чтобы исключить проблемы выгрузки.
 * обратите внимание на наличие у вас интерпретатора python для работы с [precommit1C](https://github.com/pumbaEO/precommit1c) - конечная цель, чтобы в каталоге src находились все epf файлы анаходящиеся в репозитории, только в виде исходников.
-* следите за обновлением шаблона
-* подпишитесь на изменения WiKi в виде RSS канала https://github.com/silverbulleters/vanessa-bootstrap/wiki.atom
+* следите за обновлением шаблона через подписку GitHub - `кнопка Watch`
 
 обратите внимание что:
 
+* для последних версий платформы следует использовать проекта [Vanessa Runner](https://github.com/silverbulleters/vanessa-runner) - для реализации процесса `configure -> build -> check -> install`
 * существует проект [gitsync](https://github.com/EvilBeaver/oscript-library/tree/develop/src/gitsync), реализованный на [oscript.io](http://oscript.io/)
 * precommit1C на данный момент имеет версию как для Python, так и для **OScript** [precommit1C](https://github.com/xDrivenDevelopment/precommit1c/)
 
