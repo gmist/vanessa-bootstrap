@@ -18,7 +18,7 @@
 * как настоящий 1С специалист новую конфигурацию подключите к Хранилищу 1С (если вы разрабатываете внешнюю обработку, этот пункт можете пропустить)
 * настройте на своем CI-сервере выгрузку исходников из [Хранилища 1С](http://v8.1c.ru/overview/DeveloperGroupp.htm) в git репозиторий с помощью [Yet Another Unpack](https://github.com/silverbulleters/vanessa-unpack) - выгрузку лучше всего настроить в каталог .\src\cf
 * обратите внимание на проект [по исправлению артефактов 1С при выгрузке в исходники](https://github.com/pumbaEO/undiff1c/blob/master/src/undiff1c/undiff1c.py) - если вы видите странные изменения в xml файлах, значит необходимо описать пример в качестве запроса https://github.com/pumbaEO/undiff1c/issues, чтобы исключить проблемы выгрузки.
-* обратите внимание на наличие у вас интерпретатора python для работы с [precommit1C](https://github.com/pumbaEO/precommit1c) - конечная цель чтобы в каталоге src находились все epf файлы анаходящиеся в репозитории, только в виде исходников.
+* обратите внимание на наличие у вас интерпретатора python для работы с [precommit1C](https://github.com/pumbaEO/precommit1c) - конечная цель чтобы в каталоге src находились все epf файлы находящиеся в репозитории, только в виде исходников.
 * следите за обновлением шаблона
 * подпишитесь на изменения WiKi в виде RSS канала https://github.com/silverbulleters/vanessa-bootstrap/wiki.atom
 
@@ -73,6 +73,6 @@ echo "Обновляю BootStrap"
 
 * структура содержит адаптацию семантики каталогов для проектов на проекте Graphite от компании 1С (пример текущего каталога из проекта Graphite можно посмотреть тут https://github.com/1C-Company/dt-demo-configuration/tree/master/DemoConfDT
 
-* для GitFlow в Windows мы советуем использовать программу SourceTree от компании Atlassian, для GitFlow в linux следует использовать расширение git-flow для git
+* для GitFlow в Windows мы советуем использовать программу SourceTree от компании Atlassian, для GitFlow в Linux следует использовать расширение git-flow для git
 
 * для управления релизами мы используем [Семантическое версионирование](http://semver.org/lang/ru/)
